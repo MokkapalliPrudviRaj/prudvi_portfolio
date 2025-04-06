@@ -87,10 +87,10 @@ const HeroSection: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '800ms' }}>
             <Button size="lg" className="rounded-full px-6">
-              Explore My Work
-            </Button>
+            <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors">Explore My Work</a>
+             </Button>
             <Button size="lg" variant="outline" className="rounded-full px-6">
-              Contact Me
+            <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact Me</a>
             </Button>
           </div>
         </div>

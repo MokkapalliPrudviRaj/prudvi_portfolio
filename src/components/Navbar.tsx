@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 w-full border-b backdrop-blur-lg bg-background/70">
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <a href="#home" className="font-bold text-2xl text-primary">
-          Alexander<span className="text-foreground">.dev</span>
+          Prudvi<span className="text-foreground">.dev</span>
         </a>
         
         <nav className="hidden md:flex items-center gap-6">
