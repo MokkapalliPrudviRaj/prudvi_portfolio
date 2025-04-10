@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '800ms' }}>
             <a
-              href="src\Resume\Prudvi Raj Mokkapalli_Frontend Developer_Resume.pdf"
+              href="public/Prudvi Raj Mokkapalli_Frontend Developer_Resume.pdf"
               download
               className="group"
             >
@@ -101,7 +101,7 @@ const HeroSection: React.FC = () => {
                   className="fill-muted-foreground group-hover:fill-foreground transition-colors"
                 >
                   <path d="M12 16L16 11H13V4H11V11H8L12 16Z" />
-                  <path d="M20 18H4V11H2V18C2 19.103 2.897 20 4 20H20C21.103 20 22 19.103 22 18V11H20V18Z"/>
+                  <path d="M20 18H4V11H2V18C2 19.103 2.897 20 4 20H20C21.103 20 22 19.103 22 18V11H20V18Z" />
                 </svg>
                 <span className="text-muted-foreground hover:text-foreground transition-colors">Download Resume</span>
               </Button>
@@ -111,9 +111,9 @@ const HeroSection: React.FC = () => {
               href="#contact"
               className="group"
             >
-            <Button size="lg" variant="outline" className="rounded-full px-6">
-              <span className="text-muted-foreground hover:text-foreground transition-colors">Contact Me</span>
-            </Button>
+              <Button size="lg" variant="outline" className="rounded-full px-6">
+                <span className="text-muted-foreground hover:text-foreground transition-colors">Contact Me</span>
+              </Button>
             </a>
           </div>
         </div>
