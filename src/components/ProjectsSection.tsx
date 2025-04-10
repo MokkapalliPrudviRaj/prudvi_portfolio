@@ -30,8 +30,8 @@ const projects: Project[] = [
   {
     id: 1,
     title: "mCart",
-    description: "A mobile and tablet application designed for seamless online shopping experiences.",
-    image: "https://cdn-om.cdnpk.net/users/195/195365029/uploads/b4116a68-a5f8-4622-8318-bdae18b460d2/b4116a68-a5f8-4622-8318-bdae18b460d2-thumb.jpg?token=exp=1744269645~hmac=cab148d605f719fcaf4e488aca89e2c1",
+    description: "A mobile and tablet shopping application designed for seamless online shopping experiences.",
+    image: "https://img.freepik.com/free-photo/eid-shopping-trolley-tablet-with-laptop-front-side_187299-38897.jpg?t=st=1744271178~exp=1744274778~hmac=442c28a4b9037fe731f9ba7b858cb43794d01a03136aac598e468cb902ee9105&w=1380",
     category: "development",
     technologies: ["Angular", "Angular Materials", "Responsive Design", "Figma to code"],
     liveUrl: "https://mokkapalliprudviraj.github.io/mCart/welcome",
