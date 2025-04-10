@@ -26,119 +26,120 @@ const skills: Skill[] = [
   // Development Skills
   { 
     name: 'Angular', 
-    level: 95, 
+    level: 90, 
     category: 'development',
     icon: <Cpu className="h-6 w-6" />,
-    description: 'Expert in Angular framework with deep understanding of components, services, and state management'
+    description: 'Frontend framework for building scalable web applications'
   },
   { 
     name: 'TypeScript', 
-    level: 90, 
+    level: 60, 
     category: 'development',
     icon: <Code className="h-6 w-6" />,
-    description: 'Strong typing, interfaces, generics, and advanced TypeScript patterns'
+    description: 'Typed superset of JavaScript that adds static typing and interfaces'
   },
   { 
     name: 'JavaScript', 
     level: 85, 
     category: 'development',
     icon: <Chrome className="h-6 w-6" />,
-    description: 'ES6+, async/await, promises, functional programming techniques'
+    description: 'Programming language for creating dynamic web content'
   },
   { 
     name: 'HTML/CSS', 
-    level: 90, 
+    level: 95, 
     category: 'development',
     icon: <Layout className="h-6 w-6" />,
-    description: 'Semantic HTML, CSS Grid, Flexbox, animations, and responsive design'
+    description: 'Markup and styling languages used to build responsive web pages'
   },
   { 
     name: 'RxJS', 
     level: 85, 
     category: 'development',
     icon: <Cpu className="h-6 w-6" />,
-    description: 'Observables, operators, subjects, and reactive programming patterns'
+    description: 'Library for reactive programming using observables'
   },
   { 
     name: 'Angular Material', 
-    level: 90, 
+    level: 95, 
     category: 'development',
     icon: <Briefcase className="h-6 w-6" />,
-    description: 'Comprehensive knowledge of Material Design components and theming'
+    description: 'UI component library based on Material Design'
   },
   { 
     name: 'REST APIs', 
-    level: 80, 
+    level: 85, 
     category: 'development',
     icon: <Chrome className="h-6 w-6" />,
-    description: 'API integration, HTTP clients, interceptors, and error handling'
+    description: 'Web services that allow communication between systems over HTTP'
   },
   { 
     name: 'Git', 
     level: 85, 
     category: 'development',
     icon: <GitBranch className="h-6 w-6" />,
-    description: 'Version control, branching strategies, and collaborative workflows'
+    description: 'Version control system for tracking code changes and collaboration'
   },
 
   // Design Skills
   { 
     name: 'Figma', 
-    level: 90, 
+    level: 95, 
     category: 'design',
     icon: <Figma className="h-6 w-6" />,
-    description: 'Expert in creating high-fidelity mockups, prototypes, and design systems'
+    description: 'Design tool for creating UI mockups, prototypes, and design systems'
   },
   { 
-    name: 'Webflow', 
+    name: 'Protopie', 
     level: 85, 
     category: 'design',
     icon: <Layout className="h-6 w-6" />,
-    description: 'Building responsive, interactive websites without code'
+    description: 'Tool for building interactive and realistic prototypes'
   },
   { 
     name: 'UI Design', 
-    level: 90, 
+    level: 95, 
     category: 'design',
     icon: <Layers className="h-6 w-6" />,
-    description: 'Creating visually appealing interfaces with strong visual hierarchy'
+    description: 'Designing user interfaces that are visually appealing and functional'
   },
   { 
     name: 'UX Design', 
-    level: 85, 
+    level: 95, 
     category: 'design',
     icon: <Search className="h-6 w-6" />,
-    description: 'User research, personas, journey mapping, and usability testing'
+    description: 'Designing user-centered experiences through research and testing'
   },
   { 
     name: 'Wireframing', 
-    level: 90, 
+    level: 80, 
     category: 'design',
     icon: <PenTool className="h-6 w-6" />,
-    description: 'Low and mid-fidelity wireframes to establish information architecture'
+    description: 'Creating basic layouts and structure for digital interfaces'
   },
   { 
     name: 'Prototyping', 
     level: 85, 
     category: 'design',
     icon: <Layout className="h-6 w-6" />,
-    description: 'Interactive prototypes with realistic animations and interactions'
+    description: 'Building interactive models to test and validate designs'
   },
   { 
     name: 'Design Systems', 
-    level: 80, 
+    level: 75, 
     category: 'design',
     icon: <Layers className="h-6 w-6" />,
-    description: 'Creating and maintaining consistent design libraries and components'
+    description: 'Standardized set of UI components and design guidelines'
   },
   { 
     name: 'Visual Design', 
-    level: 80, 
+    level: 85, 
     category: 'design',
     icon: <PenTool className="h-6 w-6" />,
-    description: 'Typography, color theory, composition, and visual storytelling'
+    description: 'Crafting the aesthetics of a digital product through layout and style'
   },
 ];
+
 
 const SkillCard = ({ skill }: { skill: Skill }) => {
   return (

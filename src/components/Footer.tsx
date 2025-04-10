@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-2xl font-bold tracking-tight">
-              <span className="text-primary">Alexander</span><span>.dev</span>
+              <span className="text-primary">Prudvi</span><span>.dev</span>
             </a>
             <p className="text-muted-foreground mt-2 max-w-md">
               Angular Developer & UI/UX Designer specializing in creating beautiful and functional digital experiences.
@@ -25,13 +25,13 @@ const Footer: React.FC = () => {
               <ChevronUp className="w-5 h-5" />
             </a>
             <div className="flex space-x-4">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/MokkapalliPrudviRaj" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 GitHub
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/uiuxbyprudvi/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 LinkedIn
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://dribbble.com/uiuxbyprudvi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 Dribbble
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t">
           <p className="text-muted-foreground text-sm mb-4 sm:mb-0">
-            &copy; {new Date().getFullYear()} Alexander.dev. All rights reserved.
+            &copy; {new Date().getFullYear()} Prudvi.dev. All rights reserved.
           </p>
           
           <div className="flex space-x-6">

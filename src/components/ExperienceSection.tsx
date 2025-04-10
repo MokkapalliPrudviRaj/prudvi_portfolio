@@ -17,48 +17,56 @@ type Experience = {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Senior Angular Developer",
-    company: "TechCorp Solutions",
-    location: "San Francisco, CA",
-    period: "Jan 2021 - Present",
-    description: "Leading the development of enterprise-scale Angular applications, focusing on performance optimization and component architecture.",
+    title: "Senior Systems Engineer",
+    company: "Infosys Limited",
+    location: "Bengaluru, KA",
+    period: "Jan 2025 - Present",
+    description: "Developed and optimized the frontend of Infosys Client web portal using Angular and Angular Material, enhancing performance, scalability, and user engagement—resulting in a 30% increase in traffic and engagement.",
     responsibilities: [
-      "Architected and implemented a modular component system using Angular 13+",
-      "Led a team of 5 frontend developers, providing technical guidance and code reviews",
-      "Improved application performance by 40% through lazy loading and optimization",
-      "Implemented comprehensive unit and integration testing strategies"
+      "Built a modular, scalable architecture with lazy loading, improving application performance and reducing load times.",
+      "Developed responsive, mobile-first interfaces using Angular Material, ensuring consistency across devices.",
+      "Integrated RESTful APIs and optimized data handling for seamless real-time interactions and improved responsiveness.",
+      "Implemented state management strategies to enhance performance and maintainability across complex UI components.",
+      "Streamlined design-to-code workflows by leveraging Figma plugins and generative AI, reducing development time by 25%.",
+      "Created high-fidelity and low-fidelity designs in Figma, ensuring intuitive user flows and accessibility compliance.",
+      "Redesigned navigation and visuals to enhance usability, leading to a more seamless user experience.",
+      "Collaborated in Agile teams, working closely with other developers to integrate UI/UX features effectively with Angular components."
     ],
-    technologies: ["Angular 13+", "TypeScript", "RxJS", "NgRx", "Angular Material", "Jasmine"]
+    technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
   },
   {
     id: 2,
-    title: "UI/UX Designer & Angular Developer",
-    company: "Creative Digital Agency",
-    location: "New York, NY",
-    period: "Mar 2019 - Dec 2020",
-    description: "Worked in a dual role as both UI/UX designer and Angular developer, creating cohesive digital experiences from concept to implementation.",
+    title: "Systems Engineer",
+    company: "Infosys Limited",
+    location: "Bengaluru, KA",
+    period: "Aug 2022 - Dec 2024",
+    description: "Developed and optimized the frontend of Infosys Client web portal using Angular and Angular Material, enhancing performance, scalability, and user engagement—resulting in a 30% increase in traffic and engagement.",
     responsibilities: [
-      "Designed and developed responsive web applications for clients across various industries",
-      "Created wireframes, prototypes, and high-fidelity mockups using Figma",
-      "Implemented designs using Angular, ensuring pixel-perfect translations",
-      "Conducted user research and usability testing to inform design decisions"
+      "Built a modular, scalable architecture with lazy loading, improving application performance and reducing load times.",
+      "Developed responsive, mobile-first interfaces using Angular Material, ensuring consistency across devices.",
+      "Integrated RESTful APIs and optimized data handling for seamless real-time interactions and improved responsiveness.",
+      "Implemented state management strategies to enhance performance and maintainability across complex UI components.",
+      "Streamlined design-to-code workflows by leveraging Figma plugins and generative AI, reducing development time by 25%.",
+      "Created high-fidelity and low-fidelity designs in Figma, ensuring intuitive user flows and accessibility compliance.",
+      "Redesigned navigation and visuals to enhance usability, leading to a more seamless user experience.",
+      "Collaborated in Agile teams, working closely with other developers to integrate UI/UX features effectively with Angular components."
     ],
-    technologies: ["Angular 9+", "Figma", "SCSS", "Prototyping", "User Testing", "Responsive Design"]
+    technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
   },
   {
     id: 3,
-    title: "Frontend Developer",
-    company: "Innovative Startups Inc",
-    location: "Austin, TX",
-    period: "Jun 2017 - Feb 2019",
-    description: "Developed responsive web applications using Angular and related technologies for early-stage startups.",
+    title: "Product Designer",
+    company: "Forage - Accenture",
+    location: "Remote",
+    period: "Jun 2024 - Sep 2024",
+    description: "Designed a mobile feature for a music app through an Accenture-Forage Open Internship, enhancing usability and user experience.",
     responsibilities: [
-      "Built multiple SPAs using Angular 5-7 and TypeScript",
-      "Collaborated closely with designers to implement UI components",
-      "Integrated RESTful APIs and managed state with RxJS",
-      "Participated in agile development processes and sprint planning"
+      " Conducted user research, wireframing, and prototyping in Figma, ensuring intuitive navigation and accessibility.",
+      "Created high-fidelity prototypes and presented design updates, aligning with user needs and business goals.",
+      "Created interactive prototypes in ProtoPie to simulate real user interactions and test design functionality.",
+      "Adhered to a design system, ensuring visual consistency, scalability, and seamless developer handoff."
     ],
-    technologies: ["Angular 5-7", "JavaScript", "CSS3/SCSS", "REST APIs", "Git", "Agile"]
+    technologies: ["Figma", "Protopie", "UI design", "UX design", "Adaptive Design", "Responsive Web Design", "Wireframing & Prototyping", "Design Systems", "Usability Testing"]
   }
 ];
 
@@ -73,7 +81,7 @@ const ExperienceSection: React.FC = () => {
             <AnimatedText text="Work Experience" type="words" />
           </h2>
           <p className="text-lg text-muted-foreground">
-            <AnimatedText 
+            <AnimatedText
               text="My professional journey and contributions in Angular development and UI/UX design."
               type="words"
               animationDelay={100}
@@ -88,11 +96,10 @@ const ExperienceSection: React.FC = () => {
               <button
                 key={exp.id}
                 onClick={() => setActiveExperience(exp.id)}
-                className={`w-full text-left p-4 transition-all duration-300 rounded-lg border ${
-                  activeExperience === exp.id 
-                    ? 'bg-background border-primary shadow-sm' 
-                    : 'bg-transparent border-transparent hover:bg-background/50'
-                }`}
+                className={`w-full text-left p-4 transition-all duration-300 rounded-lg border ${activeExperience === exp.id
+                  ? 'bg-background border-primary shadow-sm'
+                  : 'bg-transparent border-transparent hover:bg-background/50'
+                  }`}
               >
                 <p className="font-medium">{exp.title}</p>
                 <p className="text-sm text-muted-foreground">{exp.company}</p>
@@ -103,8 +110,8 @@ const ExperienceSection: React.FC = () => {
           {/* Experience Details */}
           <div className="md:col-span-2">
             {experiences.filter(exp => exp.id === activeExperience).map((exp) => (
-              <div 
-                key={exp.id} 
+              <div
+                key={exp.id}
                 className="bg-background rounded-xl p-6 border shadow-sm animate-fade-in"
               >
                 <div className="flex justify-between items-start flex-wrap mb-4">
@@ -142,7 +149,7 @@ const ExperienceSection: React.FC = () => {
                   <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-2">Technologies</h4>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, index) => (
-                      <span 
+                      <span
                         key={index}
                         className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full"
                       >

@@ -18,62 +18,73 @@ type Project = {
 
 const projects: Project[] = [
   {
+    id: 7,
+    title: "Game Developer",
+    description: "Game Developer platform will provide comprehensive on Game developement",
+    image: "https://img.freepik.com/free-vector/video-game-developer-concept-illustration_114360-5976.jpg?t=st=1744214749~exp=1744218349~hmac=40d19708acf26292b2bb0bc5e17737e91ade96a6e8aa48f05e11f36bba79858e&w=900",
+    category: "both",
+    technologies: ["Figma", "HTML/CSS","JavaScript", "Responsive Design", "Figma to code"],
+    liveUrl: "https://mokkapalliprudviraj.github.io/Game-Developer/",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/Game-Developer"
+  },
+  {
     id: 1,
-    title: "Enterprise Dashboard",
-    description: "A comprehensive Angular dashboard for enterprise data visualization and management.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    title: "mCart",
+    description: "A mobile and tablet application designed for seamless online shopping experiences.",
+    image: "https://cdn-om.cdnpk.net/users/195/195365029/uploads/b4116a68-a5f8-4622-8318-bdae18b460d2/b4116a68-a5f8-4622-8318-bdae18b460d2-thumb.jpg?token=exp=1744269645~hmac=cab148d605f719fcaf4e488aca89e2c1",
     category: "development",
-    technologies: ["Angular", "TypeScript", "NgRx", "D3.js"],
-    liveUrl: "#",
-    repoUrl: "#"
+    technologies: ["Angular", "Angular Materials", "Responsive Design", "Figma to code"],
+    liveUrl: "https://mokkapalliprudviraj.github.io/mCart/welcome",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/mCart"
   },
   {
     id: 2,
-    title: "E-commerce Platform",
+    title: "ShopEase",
     description: "A fully responsive e-commerce platform with advanced filtering and cart functionality.",
     image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=2070&auto=format&fit=crop",
     category: "both",
-    technologies: ["Angular", "Firebase", "Stripe", "Figma"],
-    liveUrl: "#",
-    repoUrl: "#"
+    technologies: ["Angular", "Angular Materials", "Figma", "Figma to code"],
+    liveUrl: "https://www.figma.com/design/yMPevY0F0oZjWXNwK5CRH6/ShopEase?node-id=0-1&t=6MI3jygy2VFcuyUD-1",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/shop-ease"
   },
   {
     id: 3,
-    title: "Healthcare Portal UI Design",
+    title: "Doctor Appointment",
     description: "A user-centered design for a healthcare provider portal focusing on accessibility.",
-    image: "https://images.unsplash.com/photo-1586880244406-556ebe35f282?q=80&w=2187&auto=format&fit=crop",
+    image: "https://img.freepik.com/free-vector/appointment-booking-landing-page-template_23-2148556675.jpg?t=st=1744185100~exp=1744188700~hmac=4635255ec79f84c55ed0a2c4e7b13c86f69338ce199c670a12c0ec5f40358f30&w=1380",
     category: "design",
     technologies: ["Figma", "Wireframing", "Prototyping", "User Testing"],
-    liveUrl: "#"
+    liveUrl: "https://www.figma.com/design/hOrshCIfNdhNxH1WIAEUD6/My-Doctor-Appointment?node-id=60-2293&t=SEn1zdoNyTQBNfPo-1"
   },
   {
     id: 4,
-    title: "Financial Analytics App",
+    title: "Investment Tracker",
     description: "An Angular application for visualizing and analyzing financial data with real-time updates.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-    category: "development",
-    technologies: ["Angular", "TypeScript", "RxJS", "Chart.js"],
-    liveUrl: "#",
-    repoUrl: "#"
+    category: "both",
+    technologies: ["Angular", "TypeScript", "RxJS", "Chart.js","Figma", , "Figma to code"],
+    liveUrl: "https://www.figma.com/design/6X64FBCdaWuRd38SQlgLJj/Investment-Tracker?node-id=0-1&t=4jXTYWgA3yElQtGl-1",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/investment-tracker"
   },
   {
     id: 5,
-    title: "Travel Booking System",
-    description: "End-to-end design and development of a travel booking platform with intuitive UI.",
-    image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop",
+    title: "Personal Portfolio",
+    description: "End-to-end design and development of a personal website to show case my skills and experience.",
+    image: "https://img.freepik.com/free-vector/dropdown-menu-concept-illustration_114360-4501.jpg?t=st=1744214009~exp=1744217609~hmac=869a1b5db7404750c1e61380023ffc60460b65dab8da7d42e4360729aad9b521&w=900",
     category: "both",
-    technologies: ["Angular", "Node.js", "Figma", "Google Maps API"],
-    liveUrl: "#",
-    repoUrl: "#"
+    technologies: ["Angular", "Reat.js", "Responsive Design"],
+    liveUrl: "https://mokkapalliprudviraj.github.io/prudvi_portfolio/",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/prudvi_portfolio"
   },
   {
     id: 6,
-    title: "Mobile App Design System",
-    description: "A comprehensive design system for a suite of mobile applications ensuring consistency.",
-    image: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?q=80&w=1974&auto=format&fit=crop",
-    category: "design",
-    technologies: ["Figma", "Component Design", "Design Tokens", "Documentation"],
-    liveUrl: "#"
+    title: "Burger Queen",
+    description: "A Clone PWA application for Burger King.",
+    image: "https://img.freepik.com/free-photo/delicious-3d-burger-with-modern-smartphone_23-2150914625.jpg?t=st=1744213651~exp=1744217251~hmac=bd071229c3ef06478d37cd5edc7fd410fa73be9c8d4c2d46657722802ccb0097&w=1480",
+    category: "both",
+    technologies: ["Figma", "Component Design", "Angular", "PWA", "Figma to code"],
+    liveUrl: "https://www.figma.com/design/W53tdZ8uygUUOSJTFhSPIj/Burger-Queen-App?node-id=1-165&t=i4jBjUFrXVgFFksi-1",
+    repoUrl: "https://github.com/MokkapalliPrudviRaj/burger-queen-pwa-app"
   }
 ];
 

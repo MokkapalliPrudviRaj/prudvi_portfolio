@@ -80,7 +80,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({
   };
 
   return (
-    <div ref={elementRef} className={cn(className)}>
+    <div ref={elementRef} className={cn('whitespace-pre-wrap', className)}>
       {renderText()}
     </div>
   );
