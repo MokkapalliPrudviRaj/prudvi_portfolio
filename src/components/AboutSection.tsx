@@ -87,15 +87,14 @@ const AboutSection: React.FC = () => {
                     <p className="text-sm text-muted-foreground">Web optimization, lazy loading, and performance monitoring</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="flex items-start space-x-4 p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-all hover:translate-x-1 duration-300 border border-primary/10">
-                <div className="rounded-md bg-primary/20 p-3 flex-shrink-0">
-                  <BrainCog className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium mb-1">AI Tools</h4>
-                  <p className="text-sm text-muted-foreground">ChatGPT, GitHub Copilot, Figma AI and Web to Figma</p>
+                <div className="flex items-start space-x-4 p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-all hover:translate-x-1 duration-300 border border-primary/10">
+                  <div className="rounded-md bg-primary/20 p-3 flex-shrink-0">
+                    <BrainCog className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-1">AI Tools</h4>
+                    <p className="text-sm text-muted-foreground">ChatGPT, GitHub Copilot, Figma AI and Web to Figma</p>
+                  </div>
                 </div>
               </div>
             </CardContent>
