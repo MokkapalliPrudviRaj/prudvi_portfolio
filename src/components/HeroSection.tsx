@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '800ms' }}>
             <a
-              href="public/Prudvi Raj Mokkapalli_Frontend Developer_Resume.pdf"
+              href="Prudvi Raj Mokkapalli_Frontend Developer_Resume.pdf"
               download
               className="group"
             >
