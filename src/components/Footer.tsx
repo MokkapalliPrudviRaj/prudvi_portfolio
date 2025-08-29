@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
               <a href="https://www.linkedin.com/in/uiuxbyprudvi/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 LinkedIn
               </a>
-              <a href="https://dribbble.com/uiuxbyprudvi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://dribbble.com/uiuxbyprudvi/about?utm_source=Clipboard_%22clipboard_about%22&utm_campaign=%22uiuxbyprudvi%22&utm_content=%22About%20uiuxbyprudvi%22&utm_medium=Social_Share" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 Dribbble
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">

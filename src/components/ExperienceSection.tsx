@@ -21,18 +21,19 @@ const experiences: Experience[] = [
     company: "Infosys Limited",
     location: "Bengaluru, KA",
     period: "Jan 2025 - Present",
-    description: "Developed and optimized the frontend of Infosys Client web portal using Angular and Angular Material, enhancing performance, scalability, and user engagement—resulting in a 30% increase in traffic and engagement.",
+    description: "Contributed to the end-to-end UI/UX modernization of a large-scale ERP web application in the Manufacturing Domain. The ERP platform supports modules such as Requisition Management, Database Utilities, report management, user access control, and administrative configuration, helping streamline inter-departmental operations globally.",
     responsibilities: [
-      "Built a modular, scalable architecture with lazy loading, improving application performance and reducing load times.",
-      "Developed responsive, mobile-first interfaces using Angular Material, ensuring consistency across devices.",
-      "Integrated RESTful APIs and optimized data handling for seamless real-time interactions and improved responsiveness.",
-      "Implemented state management strategies to enhance performance and maintainability across complex UI components.",
-      "Streamlined design-to-code workflows by leveraging Figma plugins and generative AI, reducing development time by 25%.",
-      "Created high-fidelity and low-fidelity designs in Figma, ensuring intuitive user flows and accessibility compliance.",
-      "Redesigned navigation and visuals to enhance usability, leading to a more seamless user experience.",
-      "Collaborated in Agile teams, working closely with other developers to integrate UI/UX features effectively with Angular components."
+      "Redesigned major ERP modules (Requisition, Reports, User Access, Database Utilities) using Figma, reducing user confusion and training time by 30%.",
+      "Rebuilt frontend with Angular, TypeScript, HTML5, CSS3, Bootstrap, PrimeNG, delivering modular and responsive components.",
+      "Integrated GraphQL & REST APIs for dynamic report generation; used RxJS and NgRx for state and stream management.",
+      "Developed advanced Reactive Forms with dynamic validation for requisition and admin modules.",
+      "Applied lazy loading & OnPush change detection, cutting load times in reports and user access modules.",
+      "Implemented role-based routing & route guards for secure admin access.",
+      "Enabled multi-region (CA/US), multi-language (i18n), and ARIA accessibility compliance.",
+      "Performed manual testing and supported Jasmine/Karma component testing for UI stability.",
+      "Improved task efficiency by 25% and reduced UI-related support requests by 30% through usability, performance, and structure optimization."
     ],
-    technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
+    technologies: ["Angular","JavaScript", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
   },
   {
     id: 2,
@@ -40,34 +41,19 @@ const experiences: Experience[] = [
     company: "Infosys Limited",
     location: "Bengaluru, KA",
     period: "Aug 2022 - Dec 2024",
-    description: "Developed and optimized the frontend of Infosys Client web portal using Angular and Angular Material, enhancing performance, scalability, and user engagement—resulting in a 30% increase in traffic and engagement.",
+    description: "A frontend modernization project for a Lab Management System used by scientists and researchers to manage lab operations, instruments, and data. The goal was to improve UI responsiveness, user experience, and overall usability for efficient lab workflows.",
     responsibilities: [
-      "Built a modular, scalable architecture with lazy loading, improving application performance and reducing load times.",
-      "Developed responsive, mobile-first interfaces using Angular Material, ensuring consistency across devices.",
-      "Integrated RESTful APIs and optimized data handling for seamless real-time interactions and improved responsiveness.",
-      "Implemented state management strategies to enhance performance and maintainability across complex UI components.",
-      "Streamlined design-to-code workflows by leveraging Figma plugins and generative AI, reducing development time by 25%.",
-      "Created high-fidelity and low-fidelity designs in Figma, ensuring intuitive user flows and accessibility compliance.",
-      "Redesigned navigation and visuals to enhance usability, leading to a more seamless user experience.",
-      "Collaborated in Agile teams, working closely with other developers to integrate UI/UX features effectively with Angular components."
-    ],
-    technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
+      "Worked on designing and developing responsive frontend screens using Angular, JavaScript, HTML5, CSS, and Angular Material.",
+      "Translated high-fidelity Figma designs into clean, maintainable Angular components.",
+      "Implemented reusable UI components to ensure consistency across different modules in the application.",
+      "Integrated REST APIs to fetch real-time data and dynamically populate dashboards and forms.",
+      "Ensured responsiveness and cross-browser compatibility for all UI screens.",
+      "Focused on UI performance optimization through change detection strategies and component-level tuning.",
+      "Followed Agile Scrum methodology for iterative development and delivery in collaboration with cross-functional teams.",
+      "Prioritized accessibility and usability improvements for enhanced lab technician and researcher experience."
+],
+    technologies: ["Angular","JavaScript", "TypeScript", "RxJS", "NgRx", "Angular Material", "Figma", "Prototyping", "Responsive Design"]
   },
-  {
-    id: 3,
-    title: "Product Designer",
-    company: "Forage - Accenture",
-    location: "Remote",
-    period: "Jun 2024 - Sep 2024",
-    description: "Designed a mobile feature for a music app through an Accenture-Forage Open Internship, enhancing usability and user experience.",
-    responsibilities: [
-      " Conducted user research, wireframing, and prototyping in Figma, ensuring intuitive navigation and accessibility.",
-      "Created high-fidelity prototypes and presented design updates, aligning with user needs and business goals.",
-      "Created interactive prototypes in ProtoPie to simulate real user interactions and test design functionality.",
-      "Adhered to a design system, ensuring visual consistency, scalability, and seamless developer handoff."
-    ],
-    technologies: ["Figma", "Protopie", "UI design", "UX design", "Adaptive Design", "Responsive Web Design", "Wireframing & Prototyping", "Design Systems", "Usability Testing"]
-  }
 ];
 
 const ExperienceSection: React.FC = () => {
